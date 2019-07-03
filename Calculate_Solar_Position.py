@@ -1,6 +1,5 @@
-def solar_angle(date, latitude = 43.25, longitude = -2.9666667):
+def solar_angle(date, latitude, zenith):
     '''
-    Function to calculate solar angle azimuth and zenith for a given place (latitude, longitude), and date.
         The zenith  --> is an imaginary point directly "above" a particular location, on the imaginary celestial sphere.
                 "Above" means in the vertical direction opposite to the apparent gravitational force at that location
                 The zenith is the "highest" point on the celestial sphere.
